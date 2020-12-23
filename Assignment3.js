@@ -51,3 +51,6 @@ function addItemToCart(product, quantity){
 }
 let newProduct = { id: 'A31', item: 'T-shirt', price: 10};
 console.log(addItemToCart(newProduct,10));
+
+let newProduct2 = { id: 'A01', item: 'T-shirt', price: 10};
+console.log(addItemToCart(newProduct2,10));
